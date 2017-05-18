@@ -1,8 +1,8 @@
 {
-	"name": "editable-tables",
+	"name": "jquery-editable-tables",
 	"version": "0.1.0",
-	"description": "JQuery plugin to",
-	"main": "./dist/js/editable-tables.min.js",
+	"description": "JQuery plugin to make tables editable",
+	"main": "./dist/js/jquery-editable-tables.min.js",
 	"author": {
 		"name": "Jefferson Magboo"
 	},
