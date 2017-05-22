@@ -1,3 +1,10 @@
+/*!
+ * jquery-editable-tables v0.1.0: JQuery plugin to make tables editable
+ * (c) 2017 Jefferson Magboo
+ * MIT License
+ * http://github.com/muffeen/editable-tables
+ */
+
 
 (function( $ ) {
 
@@ -15,8 +22,8 @@
         	return attr.trim();
         }
  
-        return this.each(function() {
-	        $(this).find('tbody > tr > td').each(function(){
+        return this.each((function() {
+	        $(this).find('tbody > tr > td').each((function(){
 	        	var td = $(this);
 	        	var value = td.text();
 	        	var data = td.data();
@@ -59,8 +66,8 @@
 	        		var checked = yes === value;
 	        		td.replaceWith('<td><input type="checkbox" '+createAttributes(data)+' '+(checked?'checked':'')+'></td>');
 	        	}
-	        });
-	    });
+	        }));
+	    }));
  
     };
  
