@@ -9,9 +9,9 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "http://github.com/muffeen/editable-tables"
+		"url": "http://github.com/muffeen/jquery-editable-tables"
 	},
-	"devDependencies": {
+	"devDependenciey": {
 		"gulp": "^3.9.1",
 		"node-fs": "^0.1.7",
 		"del": "^2.2.2",

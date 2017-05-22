@@ -2,7 +2,7 @@
  * jquery-editable-tables v0.1.0: JQuery plugin to make tables editable
  * (c) 2017 Jefferson Magboo
  * MIT License
- * http://github.com/muffeen/editable-tables
+ * http://github.com/muffeen/jquery-editable-tables
  */
 
 
