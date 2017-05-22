@@ -115,7 +115,7 @@ gulp.task('listen', function () {
 });
 
 // Run livereload after file change
-gulp.task('refresh', ['compile', 'docs'], function () {
+gulp.task('refresh', ['compile'], function () {
     livereload.changed();
 });
 
