@@ -1,34 +1,36 @@
 {
-	"name": "jquery-editable-tables",
-	"version": "0.1.0",
-	"description": "JQuery plugin to make tables editable",
-	"main": "./dist/js/jquery-editable-tables.min.js",
-	"author": {
-		"name": "Jefferson Magboo"
-	},
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "http://github.com/muffeen/jquery-editable-tables"
-	},
-	"devDependenciey": {
-		"gulp": "^3.9.1",
-		"node-fs": "^0.1.7",
-		"del": "^2.2.2",
-		"lazypipe": "^1.0.1",
-		"gulp-plumber": "^1.1.0",
-		"gulp-flatten": "^0.3.1",
-		"gulp-tap": "^0.1.3",
-		"gulp-rename": "^1.2.2",
-		"gulp-header": "^1.8.8",
-		"gulp-footer": "^1.0.5",
-		"gulp-watch": "^4.3.11",
-		"gulp-livereload": "^3.8.1",
-		"jshint": "^2.9.4",
-		"gulp-jshint": "^2.0.4",
-		"jshint-stylish": "^2.2.1",
-		"gulp-concat": "^2.6.1",
-		"gulp-uglify": "^2.1.2",
-		"gulp-optimize-js": "^1.1.0"
-	}
+  "name": "jquery-editable-tables",
+  "version": "0.1.0",
+  "description": "JQuery plugin to make tables editable",
+  "main": "./dist/js/jquery-editable-tables.min.js",
+  "author": "Jefferson Magboo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/muffeen/jquery-editable-tables.git"
+  },
+  "homepage": "https://github.com/muffeen/jquery-editable-tables#readme",
+  "bugs": {
+    "url": "https://github.com/muffeen/jquery-editable-tables/issues"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-flatten": "^0.4.0",
+    "gulp-footer": "^2.1.0",
+    "gulp-header": "^1.8.8",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^4.0.2",
+    "gulp-optimize-js": "^1.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-tap": "^0.1.3",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "lazypipe": "^1.0.1",
+    "node-fs": "^0.1.7"
+  }
 }
